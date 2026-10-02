@@ -32,9 +32,8 @@ A Windows export preset is included, so **Export → Windows Desktop** produces 
 playable build. Pre-built `.exe` files from earlier runs are committed at the
 repository root if you just want to try it without opening the editor.
 
-> Note: the committed binaries include `Starlight.exe`, `Starlight.console.exe`
-> and an earlier build named `Melexim_in_tara_femeilor.exe`. They are leftovers
-> from testing and are not needed to build the project.
+> The committed `.exe` files at the repository root are older Windows builds,
+> kept for reference. You do not need them.
 
 ## Project layout
 
@@ -56,8 +55,6 @@ export_presets.cfg   Windows Desktop export
 
 ## Notes
 
-Built as a learning project to get comfortable with Godot's scene tree, signals
-and physics — the slime's edge detection and the roll/platform signal wiring were
-the interesting parts. `.godot/` and `/android/` are gitignored; the import
-files (`*.import`) are committed on purpose so the project opens without a
-reimport step.
+Built to get comfortable with Godot's scene tree, signals and physics — the
+slime's edge detection and the roll/platform signal wiring were the interesting
+parts.
